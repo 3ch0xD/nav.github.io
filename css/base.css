@@ -11,6 +11,7 @@ body {
 	--color-link: #fff;
 	--color-link-hover: #0b44fb;
 	font-family: "Niramit", Arial, sans-serif;
+	overflow: hidden;
 	min-height: 100vh;
 	color: #57585c;
 	color: var(--color-text);
@@ -80,6 +81,10 @@ a:focus {
 	width: 0;
 	height: 0;
 	pointer-events: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 /* Icons */
